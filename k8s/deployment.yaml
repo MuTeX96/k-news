@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: fabricioveronez/kube-news:2 #Estou a utilizar a imagem do Fabricio porque a minha imagem (alipioestima/k-news) não está a dar
+          image: alipioestima/k-news:${{TAG}}
           ports:
             - containerPort: 8080
           env:

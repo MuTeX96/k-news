@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: alipioestima/k-news:${{TAG}}
+          image: alipioestima/k-news:{{TAG}}
           ports:
             - containerPort: 8080
           env:
